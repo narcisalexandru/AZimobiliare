@@ -11,42 +11,64 @@
     <title>Imobiliare AZ</title>
 </head>
 <header>
-    <a href="index.html"><img class="logo" src="logoAZo.png" alt="logo"></a>
-    <nav class="navbar">
-        <!-- <div class="logo-name">
-            <ul>
-                <li>Imobiliare AZ</li>
-            </ul>
-        </div> -->
-        <a href="#" class="toggle-button">
-            <span class="bar"> </span>
-            <span class="bar"> </span>
-            <span class="bar"> </span>
-        </a>
-        <div class="navbar-links">
-            <ul>
-                <li><a href="#">Anunturi</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+    <div class="col-1" >
+        <div class="container-full">
+            <a href="index.html"><img class="logo" src="logoAZo.png" alt="logo"></a>
+            <nav class="navbar">
+                <!-- <div class="logo-name">
+                    <ul>
+                        <li>Imobiliare AZ</li>
+                    </ul>
+                </div> -->
+                <a href="#" class="toggle-button">
+                    <span class="bar"> </span>
+                    <span class="bar"> </span>
+                    <span class="bar"> </span>
+                </a>
+                <div class="navbar-links">
+                    <ul>
+                        <li><a href="#">Anunturi</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
         </div>
-    </nav>
+    </div>
 </header>
 <body>
-    <section id="bannerimage">
-        <a href="#section2" class="title title-border">
-            <span class="scroll-down-button"></span>
-            Welcome
-        </a>
-        
-    </section>
-    <section id="section2">
-        <div>
-            <div class="card-left"></div>
+    <div class="container-full">
+        <div class="row">
+            <div class="col-1">
+                    <section id="bannerimage">
+                        <div class="container">
+                            <a href="#section2" class="title title-border">
+                                <span class="scroll-down-button"></span>
+                                Welcome
+                            </a>
+                        </div>
+                    </section>
+            </div>
         </div>
-        
-    </section>
-    <section id="section3">
-        <div> asddasads</div>
-    </section>
+        <div class="row">
+            <div class="col-1">
+                <div class="container-cards">
+                    <input type="radio" name="slider" id="item-1" checked>
+                    <input type="radio" name="slider" id="item-2">
+                    <input type="radio" name="slider" id="item-3">
+                    <div class="cards">
+                        <label class="card" for="item-1" id="card-1">
+                            <img class="card-img" src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=776&q=80" alt="people1">
+                        </label>
+                        <label class="card" for="item-2" id="card-2">
+                            <img class="card-img" src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt="people2">
+                        </label>
+                        <label class="card" for="item-3" id="card-3">
+                            <img class="card-img" src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80" alt="people3">
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </div>
 </body>
 </html>
